@@ -49,6 +49,7 @@ Route::get('/whitepaper', function () {
 
 
 
+Route::get('/bet-history', 'App\Http\Controllers\BetHistoryController@index')->name('betHistory');
 
 Route::middleware([
     'auth:sanctum',

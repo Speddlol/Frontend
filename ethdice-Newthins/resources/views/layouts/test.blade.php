@@ -214,7 +214,9 @@ p {
 
 
 }
-
+.text-wrap {
+    white-space: normal;
+}
  
 
 }
@@ -295,7 +297,10 @@ min-height:calc(100vh);
            
 
                 <ul class="navbar-nav ml-auto">
-                    
+                
+                    <li class="nav-item">
+                        <a href="{{ url('/matchbetting') }}" class="btn">Bets</a>
+                    </li>
                      </li>
                       <li class="nav-item">
                         <a href="{{ url('/') }}" class="btn">Dice</a>

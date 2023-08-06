@@ -106,22 +106,30 @@ h5{
     font-family: Oswald;
     font-size: 24px;
 }
-h2{
+h1{
     font-family: Oswald;
-    font-size: 20px;
+    font-size: 24px;
     color: white;
-    margin-bottom: 10px;
-    justify-content: center;
+    margin-bottom: 60px;
+    text-align: center;
 }
+#betHistoryModal {
+    text-align: center;
+}
+
 
 </style>
 <div class="container">
-    <h2>Want YOUR coin listed here with odds? Contact us on Telegram!</h2>
+<h1>Cryptocurrency Price preditor - We provide the odds, you determine if it will hit the price target or not! <br>   Want YOUR coin listed here with odds? Contact us on Telegram!</h1>
+    <div class="container" style="text-align: right">
+    <a href="{{ route('betHistory') }}" class="btn btn-primary" style="margin-bottom: 10px;">My Bet History</a>
+
+        </div>
     <div class="row justify-content-center">
         @foreach($betslips as $betslip)
             <div class="col-lg-6 col-md-8 mb-4">
                 <div class="card h-100">
-                    <form action="{{ route('placeBet', ['betslip' => $betslip->id]) }}" method="POST">
+                    <form action="{{ route('placeBet', ['betslip' => $betslip->id]) }}" method="POST" class="bet-form">
                         @csrf  <!-- CSRF token for Laravel -->
                         <div class="card-content">
                             <img src="{{ asset($betslip->picture) }}" class="card-img-top" alt="{{ $betslip->name }}">
@@ -177,6 +185,23 @@ function selectOdd(element) {
     odds.forEach(odd => odd.classList.remove('selected'));
     element.classList.add('selected');
 }
+function validateForm(event) {
+    const selectedOdd = document.querySelector('input[name="selected_odd"]:checked');
+    if (!selectedOdd) {
+        event.preventDefault();
+        alert('You need to choose an outcome before placing a bet.');
+    }
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+    const betForms = document.querySelectorAll('.bet-form');
+    betForms.forEach(form => {
+        form.addEventListener('submit', validateForm);
+    });
+});
+
+
+
 </script>
 
 @endsection
