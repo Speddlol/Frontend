@@ -1,0 +1,66 @@
+[18-Mar-2023 15:10:58 America/Boise] PHP Warning:  require(/home2/cahootbe/public_html/home2/cahootbe/LaravelProject/CahootLaravelsite/vendor/autoload.php): Failed to open stream: No such file or directory in /home2/cahootbe/public_html/index.php on line 34
+[18-Mar-2023 15:10:58 America/Boise] PHP Warning:  require(/home2/cahootbe/public_html/home2/cahootbe/LaravelProject/CahootLaravelsite/vendor/autoload.php): Failed to open stream: No such file or directory in /home2/cahootbe/public_html/index.php on line 34
+[18-Mar-2023 15:10:58 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/cahootbe/public_html/home2/cahootbe/LaravelProject/CahootLaravelsite/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home2/cahootbe/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home2/cahootbe/public_html/index.php on line 34
+[18-Mar-2023 15:11:41 America/Boise] PHP Warning:  require(/home2/cahootbe/public_html/home2/cahootbe/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home2/cahootbe/public_html/index.php on line 34
+[18-Mar-2023 15:11:41 America/Boise] PHP Warning:  require(/home2/cahootbe/public_html/home2/cahootbe/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home2/cahootbe/public_html/index.php on line 34
+[18-Mar-2023 15:11:41 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/cahootbe/public_html/home2/cahootbe/public_html/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home2/cahootbe/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home2/cahootbe/public_html/index.php on line 34
+[18-Mar-2023 15:11:43 America/Boise] PHP Warning:  require(/home2/cahootbe/public_html/home2/cahootbe/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home2/cahootbe/public_html/index.php on line 34
+[18-Mar-2023 15:11:43 America/Boise] PHP Warning:  require(/home2/cahootbe/public_html/home2/cahootbe/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home2/cahootbe/public_html/index.php on line 34
+[18-Mar-2023 15:11:43 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/cahootbe/public_html/home2/cahootbe/public_html/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home2/cahootbe/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home2/cahootbe/public_html/index.php on line 34
+[18-Mar-2023 15:11:54 America/Boise] PHP Warning:  require(/home2/cahootbe/public_html/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home2/cahootbe/public_html/index.php on line 34
+[18-Mar-2023 15:11:54 America/Boise] PHP Warning:  require(/home2/cahootbe/public_html/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home2/cahootbe/public_html/index.php on line 34
+[18-Mar-2023 15:11:54 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/cahootbe/public_html/public_html/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home2/cahootbe/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home2/cahootbe/public_html/index.php on line 34
+[18-Mar-2023 15:11:55 America/Boise] PHP Warning:  require(/home2/cahootbe/public_html/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home2/cahootbe/public_html/index.php on line 34
+[18-Mar-2023 15:11:55 America/Boise] PHP Warning:  require(/home2/cahootbe/public_html/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home2/cahootbe/public_html/index.php on line 34
+[18-Mar-2023 15:11:55 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/cahootbe/public_html/public_html/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home2/cahootbe/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home2/cahootbe/public_html/index.php on line 34
+[18-Mar-2023 15:11:56 America/Boise] PHP Warning:  require(/home2/cahootbe/public_html/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home2/cahootbe/public_html/index.php on line 34
+[18-Mar-2023 15:11:56 America/Boise] PHP Warning:  require(/home2/cahootbe/public_html/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home2/cahootbe/public_html/index.php on line 34
+[18-Mar-2023 15:11:56 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/cahootbe/public_html/public_html/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home2/cahootbe/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home2/cahootbe/public_html/index.php on line 34
+[18-Mar-2023 15:12:07 America/Boise] PHP Warning:  require(/home2/cahootbe/public_html/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home2/cahootbe/public_html/index.php on line 34
+[18-Mar-2023 15:12:07 America/Boise] PHP Warning:  require(/home2/cahootbe/public_html/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home2/cahootbe/public_html/index.php on line 34
+[18-Mar-2023 15:12:07 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/cahootbe/public_html/public_html/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home2/cahootbe/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home2/cahootbe/public_html/index.php on line 34
+[18-Mar-2023 15:12:08 America/Boise] PHP Warning:  require(/home2/cahootbe/public_html/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home2/cahootbe/public_html/index.php on line 34
+[18-Mar-2023 15:12:08 America/Boise] PHP Warning:  require(/home2/cahootbe/public_html/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home2/cahootbe/public_html/index.php on line 34
+[18-Mar-2023 15:12:08 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/cahootbe/public_html/public_html/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home2/cahootbe/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home2/cahootbe/public_html/index.php on line 34
+[18-Mar-2023 15:12:32 America/Boise] PHP Warning:  require(/home2/cahootbe/public_html/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home2/cahootbe/public_html/index.php on line 34
+[18-Mar-2023 15:12:32 America/Boise] PHP Warning:  require(/home2/cahootbe/public_html/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home2/cahootbe/public_html/index.php on line 34
+[18-Mar-2023 15:12:32 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/cahootbe/public_html/public_html/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home2/cahootbe/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home2/cahootbe/public_html/index.php on line 34
+[18-Mar-2023 15:12:36 America/Boise] PHP Warning:  require(/home2/cahootbe/public_html/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home2/cahootbe/public_html/index.php on line 34
+[18-Mar-2023 15:12:36 America/Boise] PHP Warning:  require(/home2/cahootbe/public_html/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home2/cahootbe/public_html/index.php on line 34
+[18-Mar-2023 15:12:36 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/cahootbe/public_html/public_html/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home2/cahootbe/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home2/cahootbe/public_html/index.php on line 34
+[18-Mar-2023 15:14:58 America/Boise] PHP Warning:  require(/home2/cahootbe/public_html/home2/cahootbe/LaravelProject/CahootLaravelsite/vendor/autoload.php): Failed to open stream: No such file or directory in /home2/cahootbe/public_html/index.php on line 34
+[18-Mar-2023 15:14:58 America/Boise] PHP Warning:  require(/home2/cahootbe/public_html/home2/cahootbe/LaravelProject/CahootLaravelsite/vendor/autoload.php): Failed to open stream: No such file or directory in /home2/cahootbe/public_html/index.php on line 34
+[18-Mar-2023 15:14:58 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/cahootbe/public_html/home2/cahootbe/LaravelProject/CahootLaravelsite/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home2/cahootbe/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home2/cahootbe/public_html/index.php on line 34

@@ -1,0 +1,425 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+  
+}
+
+.game-live-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1200px; /* Adjust this value to your desired width */
+  margin-bottom: 20px;
+}
+
+.game-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0px;
+  margin: 0;
+  margin-right: auto;
+  width: 900px;
+  height: 500px;
+  border: 0px solid #ccc;
+  overflow: hidden;
+  border-radius: 10px;
+background: #2f2f39;
+box-shadow:  8px 8px 16px #131317,
+             -8px -8px 16px #4b4b5b;
+}
+
+.left-container {
+  position: relative;
+  background-color: rgba(0,0,0,0.25);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.2);
+  padding: 30px;
+}
+
+.right-container {
+  position: relative;
+  display: flex;
+  background-color: rgba(0,0,0,0.10);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.2);
+  padding: 20px;
+}
+
+
+.jackpot-coins {
+  font-family: 'Oswald', sans-serif;
+  position: absolute;
+  display: inline-flex;
+  font-size: 30px;
+  border-radius: 2px;
+  padding: 3px 6px;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  align-items: center;
+  justify-content: center;
+  top: 10%;
+}
+
+
+.jackpot-coins img {
+  vertical-align: middle;
+  margin-right: 8px;
+  width: 40px;
+  height: 40px;
+  
+}
+.live-container {
+  display: flex;
+ 
+  flex-direction: column;
+  width: 300px;
+  height: 500px;
+  
+  border-radius: 10px;
+background: #2f2f39;
+box-shadow:  -8px 8px 16px #131317,
+             8px -8px 16px #4b4b5b;
+ 
+             margin-left: 10px;
+}
+.high-container {
+  display: relative;
+  background-color: rgba(0,0,0,0.20);
+  
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  height: 400px;
+ 
+background: #2f2f39;
+box-shadow:  6px -6px 12px #131317,
+             -6px 6px 12px #4b4b5b;
+  padding: 20px;
+  width: 100%;
+  max-width: 1200px; /* Adjust this value to your desired width */
+  width: 100%;
+  overflow-x: auto;
+
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+}
+
+#slider {
+  
+  width: 80%;
+  margin: 20px 0;
+ 
+}
+
+.win-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 18px;
+  width: 100%;
+  max-width: 500px; 
+  flex-wrap: wrap;
+}
+
+.win-chance{
+  font-family: 'Oswald', sans-serif;
+  position: absolute;
+  left: 40px;
+}
+.payout {
+  font-family: 'Oswald', sans-serif;
+  position: absolute;
+  left: 250px;
+
+}
+.win-amount {
+  font-family: 'Oswald', sans-serif;
+  position: absolute;
+  left: 450px;
+  
+}
+
+.result {
+  position: absolute;
+  top: 400px;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+
+
+}
+
+.win {
+  color: green;
+}
+
+.lose {
+  color: red;
+}
+
+label {
+  margin-top: 10px;
+}
+input[type="number"] {
+  width: 100%;
+  margin-bottom: 10px;
+
+}
+.button-69 {
+  
+ 
+  
+  
+  align-items: center;
+  appearance: none;
+  background-clip: padding-box;
+  background-color: initial;
+  background-image: none;
+  border-style: none;
+  box-sizing: border-box;
+  color: black;
+  cursor: pointer;
+  display: inline-block;
+  flex-direction: row;
+  flex-shrink: 0;
+  font-family: Eina01,sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  justify-content: center;
+  line-height: 24px;
+  margin: 0;
+  min-height: 64px;
+  outline: none;
+  overflow: visible;
+  padding: 19px 26px;
+  pointer-events: auto;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  width: auto;
+  word-break: keep-all;
+  z-index: 0;
+}
+
+@media (min-width: 768px) {
+  .button-69 {
+    padding: 19px 32px;
+  }
+  
+}
+
+@media (max-width: 1286px) {
+  .live-container{
+    width: 100%;
+    height: 100%
+  }
+  .game-container{
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .game-container {
+    grid-template-columns: 1fr;
+    height: 730px
+  }
+  .jackpot-coins {
+    margin-top: 20px
+  }
+  #slider{
+    width: 400px !important;
+    margin-top: 60px
+  }
+  #btn01 {
+    margin-top: 18px;
+    margin-left: 12px
+  }
+  .result {
+    top: 350px
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar-brand{
+    width: 80%
+  }
+}
+
+@media (max-width: 480px) {
+  #slider{
+    width: 240px !important;
+    margin-top: 70px
+  }
+  .jackpot-coins {
+    margin-top: 20px
+  }
+}
+
+.button-69:before,
+.button-69:after {
+  border-radius: 80px;
+}
+
+.button-69:before {
+  background-color: orange;
+  content: "";
+  display: block;
+  height: 100%;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -2;
+}
+
+.button-69:after {
+  background-color: initial;
+  background-image: linear-gradient(92.83deg, #ff7426 0, #ce6b0ec0 100%);
+  bottom: 4px;
+  content: "";
+  display: block;
+  left: 4px;
+  overflow: hidden;
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  transition: all 100ms ease-out;
+  z-index: -1;
+}
+
+.button-69:hover:not(:disabled):after {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  transition-timing-function: ease-in;
+}
+
+.button-69:active:not(:disabled) {
+  color: #ccc;
+}
+
+.button-69:active:not(:disabled):after {
+  background-image: linear-gradient(0deg, rgba(207, 102, 60, 0.2), rgba(0, 0, 0, .2)), linear-gradient(92.83deg, #ff7426 0, #f93a13 100%);
+  bottom: 4px;
+  left: 4px;
+  right: 4px;
+  top: 4px;
+}
+
+.button-69:disabled {
+  cursor: default;
+  opacity: .24;
+}
+
+
+
+
+ .bet-container {
+  font-family: 'Oswald', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.bet-input-modifiers {
+  margin-left: 5px;
+  display: inline-flex;
+
+}
+#btn01, #btn2x {
+  margin-left: 2px;
+}
+
+
+
+.modifier-button {
+  font-family: 'Oswald', sans-serif;
+  background-color: orange;
+  color: black;
+  text-align: center;
+  font-size: 11px;
+  cursor: pointer;
+  width: 30px;
+  height: 20px;
+  border-radius: 5px;
+  padding: 0px;
+}
+
+input::placeholder {
+  color: white; /* Set the text color */
+  font-family: 'Oswald', sans-serif;
+  font-size: 14px; /* Set the font size */
+}
+#betAmount {
+  font-family: 'Oswald', sans-serif;
+  width: 70px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid white;
+  font-size: 14px;
+  background: linear-gradient(21deg, #4c4d4e, #f3f3f3);	
+  background-image: url('../icons/coins3.png');
+  background-size: 15px;
+  background-repeat:no-repeat;
+  padding-left:27px;
+  background-position: 5px 5px; /* Move the background image 5 pixels to the right */
+  margin-bottom: 20px;
+  margin-top: 7px;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.modifier-button:hover {
+  color: black;
+  opacity: 0.7;
+}
+#winChanceDisplay{
+  font-family: 'Oswald', sans-serif;
+  background: linear-gradient(21deg, #4c4d4e, #f3f3f3);	
+
+  color: white;
+
+}
+ 
+#button2, #button1{
+  border: 1px solid orange;
+  background-color: #131317;
+
+}
